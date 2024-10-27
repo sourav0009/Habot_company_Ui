@@ -130,8 +130,8 @@ const Home = () => {
 
             <section className=' w-full h-48 bg-sky-200 mt-24 mb-24'>
                 <div className=' flex items-center justify-around p-20'>
-                    <h1 className=' text-3xl font-semibold'>Let Suppliers <span className=' border-b-4 border-orange-400'> Find You</span></h1>
-                    <button className=' border'>Get Verified</button>
+                    <h1 className=' text-3xl font-semibold'>Let Suppliers <span className=' border-b-4 border-orange-500'> Find You</span></h1>
+                    <button className=' bg-orange-500 p-2 w-40 rounded-md text-white font-semibold'>Get Verified</button>
                 </div>
             </section>
         </>
