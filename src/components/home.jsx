@@ -46,8 +46,8 @@ const Home = () => {
             </section>
 
             <section className=' bg-white w-full h-96'>
-                <div className=' md:flex items-center justify-around md:ml-24 md:mr-24 ml-12 mr-12  md:mt-24 mt-16'>
-                    <div className="left space-y-6 ">
+                <div className=' md:flex items-center justify-around md:ml-24 md:mr-24 ml-12 mr-12  md:mt-24 mt-14'>
+                    <div className="left md:space-y-6 space-y-4 ">
                         <h1 className=' md:text-4xl text-2xl font-bold'>Ready to dive into HABOT?</h1>
                         <p>Signing up with HABOT opens the door to a world of new opportunities <br />
                             and potential for business growth. Gain access to a vibrant community <br />
