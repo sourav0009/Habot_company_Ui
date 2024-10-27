@@ -46,20 +46,19 @@ const Home = () => {
             </section>
 
             <section className=' bg-white w-full h-96'>
-                <div className=' flex items-center justify-around ml-24 mr-24 mt-24'>
+                <div className=' md:flex items-center justify-around md:ml-24 md:mr-24 ml-16 mr-16  md:mt-24 mt-16'>
                     <div className="left space-y-6 ">
-                        <h1 className=' text-4xl font-bold'>Ready to dive into HABOT?</h1>
+                        <h1 className=' md:text-4xl text-2xl font-bold'>Ready to dive into HABOT?</h1>
                         <p>Signing up with HABOT opens the door to a world of new opportunities <br />
                             and potential for business growth. Gain access to a vibrant community <br />
                             of like-minded individuals, unlock valuable resources, and take the first <br />
                             step towards realizing your entrepreneurial dreams.</p>
-                        <button className="flex items-center justify-center space-x-2 border p-2 w-64 bg-green-700 text-white font-bold rounded-sm">
+                        <button className="flex items-center justify-center space-x-2 border p-3 w-64 bg-green-700 text-white font-bold rounded-md gap-5">
                             <span>Sign up Today!</span>
                             <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="#fff">
                                 <path d="m553.85-253.85-42.16-43.38L664.46-450H180v-60h484.46L511.69-662.77l42.16-43.38L780-480 553.85-253.85Z" />
                             </svg>
                         </button>
-
                     </div>
                     <div className="right flex space-x-6">
                         <div className=' flex flex-col space-y-4 w-60'>
@@ -75,6 +74,12 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {/* <section className=' bg-blue-950  w-full h-96'>
+                <div className=' flex items-center justify-around ml-24 mr-24 mt-24'>
+
+                </div>
+            </section> */}
 
         </>
     );
