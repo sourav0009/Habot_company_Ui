@@ -61,13 +61,17 @@ const Home = () => {
                         </button>
 
                     </div>
-                    <div className="right">
-                        <button>Abu Dhabi</button>
-                        <button>Dubai</button>
-                        <button>Sharjah & Ajman</button>
-                        <button>Fujairah</button>
-                        <button>Ras Al Khaimah</button>
-                        <button>Umm Al Quwain</button>
+                    <div className="right flex space-x-6">
+                        <div className=' flex flex-col space-y-4 w-60'>
+                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Abu Dhabi</button>
+                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Sharjah & Ajman</button>
+                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Ras Al Khaimah</button>
+                        </div>
+                        <div className=' flex flex-col space-y-4 w-60'>
+                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Dubai</button>
+                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Fujairah</button>
+                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Umm Al Quwain</button>
+                        </div>
                     </div>
                 </div>
             </section>
