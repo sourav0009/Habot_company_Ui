@@ -77,23 +77,56 @@ const Home = () => {
 
             <section className=' bg-blue-950  ml-28 mr-28 h-96 mb-10 rounded-lg shadow-xl'>
                 <div className=' mt-24 '>
-                    <div className='flex  justify-around items-center'>
-                        <div className='left'>
-                            <img className=' h-45 w-[65%] mt-10' src="./pic.jpeg" alt="" />
+                    <div className='flex space-x-6 items-center'>
+                        <div className="left ml-16 relative">
+                            <a
+                                href="https://www.youtube.com/watch?v=IZLp-TZyDkQ"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="h-45 w-[65%] mt-10" src="./pic.jpeg" alt="Linked Image" />
+                            </a>
+                            <svg
+                                className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/3"
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="94px"
+                                viewBox="0 -960 960 960"
+                                width="94px"
+                                fill="#FF0000"
+                            >
+                                <path d="M616-242q-27 1-51.5 1.5t-43.5.5h-41q-71 0-133-2-53-2-104.5-5.5T168-257q-26-7-45-26t-26-45q-6-23-9.5-56T82-447q-2-36-2-73t2-73q2-30 5.5-63t9.5-56q7-26 26-45t45-26q23-6 74.5-9.5T347-798q62-2 133-2t133 2q53 2 104.5 5.5T792-783q26 7 45 26t26 45q6 23 9.5 56t5.5 63q2 36 2 73v17q-19-8-39-12.5t-41-4.5q-83 0-141.5 58.5T600-320q0 21 4 40.5t12 37.5ZM400-400l208-120-208-120v240Zm360 200v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z" />
+                            </svg>
                         </div>
-                        <div className="right">
-                            <h1>Buyer </h1>
-                            <h1>Supplier </h1>
-                            <p>Post your requirements.</p>
-                            <p>Sit back for multiple suppliers to contact you</p>
-                            <p>Choose among the suppliers based on the
-                                ratings and reviews.</p>
+                        <div className="right mr-10 text-white space-y-9">
+                            <div className=' flex justify-around text-3xl font-bold  '>
+                                <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Buyer </h1>
+                                <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Supplier </h1>
+                            </div>
+                            <div className="space-y-2 font-semibold">
+                                <p className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#008000">
+                                        <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                    </svg>
+                                    Post your requirements.
+                                </p>
+                                <p className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#008000">
+                                        <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                    </svg>
+                                    Sit back for multiple suppliers to contact you.
+                                </p>
+                                <p className="flex items-center space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#008000">
+                                        <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+                                    </svg>
+                                    Choose among the suppliers based on the ratings and reviews.
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </section>
-
-
         </>
     );
 };
