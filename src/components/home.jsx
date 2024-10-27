@@ -45,8 +45,8 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className=' bg-white w-full h-96'>
-                <div className=' md:flex items-center justify-around md:ml-24 md:mr-24 ml-12 mr-12  md:mt-24 mt-14'>
+            <section className=' bg-white w-full h-90'>
+                <div className=' md:flex items-center justify-around md:ml-16 md:mr-16 ml-12 mr-12  md:mt-24 mt-14'>
                     <div className="left md:space-y-6 space-y-4 ">
                         <h1 className=' md:text-4xl text-2xl font-bold'>Ready to dive into HABOT?</h1>
                         <p>Signing up with HABOT opens the door to a world of new opportunities <br />
@@ -75,11 +75,24 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* <section className=' bg-blue-950  w-full h-96'>
-                <div className=' flex items-center justify-around ml-24 mr-24 mt-24'>
-
+            <section className=' bg-blue-950  ml-28 mr-28 h-96 mb-10 rounded-lg shadow-xl'>
+                <div className=' mt-24 '>
+                    <div className='flex  justify-around items-center'>
+                        <div className='left'>
+                            <img className=' h-45 w-[65%] mt-10' src="./pic.jpeg" alt="" />
+                        </div>
+                        <div className="right">
+                            <h1>Buyer </h1>
+                            <h1>Supplier </h1>
+                            <p>Post your requirements.</p>
+                            <p>Sit back for multiple suppliers to contact you</p>
+                            <p>Choose among the suppliers based on the
+                                ratings and reviews.</p>
+                        </div>
+                    </div>
                 </div>
-            </section> */}
+            </section>
+
 
         </>
     );
