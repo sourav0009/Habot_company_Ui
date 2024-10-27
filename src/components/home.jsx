@@ -142,8 +142,17 @@ const Home = () => {
                     <p className=' text-center font-sans'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with <br /> potential buyers, and build successful business relationships, sharing valuable feedback.
                     </p>
                 </div>
-                <div className="down">
-
+                <div className=" flex justify-center flex-col items-center mt-5">
+                    <div className="up">
+                        <div>Select Your Role and Sign Up</div>
+                        <div> Buyers Post Your Requirements</div>
+                        <div>Review, Select, and Contact the Best Suppliers</div>
+                    </div>
+                    <div className="down">
+                        <div>Suppliers Complete your profile and get notified for opportunities</div>
+                        <div>Contact to Buyers and Share your Quote for the service</div>
+                        <div>Both the Parties can Connect and Make Business Leave a Feedback</div>
+                    </div>
                 </div>
             </section>
 
