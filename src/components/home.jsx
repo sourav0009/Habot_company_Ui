@@ -75,10 +75,10 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className=' bg-blue-950  ml-28 mr-28 h-96 mb-10 rounded-lg shadow-xl'>
-                <div className=' mt-24 '>
-                    <div className='flex space-x-6 items-center'>
-                        <div className="left ml-16 relative">
+            <section className=' bg-blue-950  md:ml-28 md:mr-28 ml-8 mr-8  h-96 mb-10 rounded-lg shadow-xl'>
+                <div className=' md:mt-24'>
+                    <div className='md:flex md:space-x-6 space-y-6 items-center'>
+                        <div className="left ml-16 relative mt-5">
                             <a
                                 href="https://www.youtube.com/watch?v=IZLp-TZyDkQ"
                                 target="_blank"
@@ -102,7 +102,7 @@ const Home = () => {
                                 <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Buyer </h1>
                                 <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Supplier </h1>
                             </div>
-                            <div className="space-y-2 font-semibold">
+                            <div className="space-y-2 font-semibold ml-5">
                                 <p className="flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#008000">
                                         <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
