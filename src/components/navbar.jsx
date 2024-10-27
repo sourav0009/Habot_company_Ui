@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="flex items-center justify-between w-full">
         {/* Logo */}
         <img
-          className="w-28 md:h-20 h-16 ml-5 md:ml-24"
-          src="./habot-logo.jpg"
+          className="w-28 md:w-44 md:h-24 h-16  ml-5 md:ml-24"
+          src="./h-logo.png"
           alt="Logo"
         />
 

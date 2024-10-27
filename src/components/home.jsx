@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
+        <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
             <div className="px-4 mx-auto max-w-screen-xl text-center py-16 md:py-24 lg:py-56">
                 <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white sm:text-4xl md:text-5xl lg:text-6xl">
                     Are You a Supplier?
@@ -40,7 +40,7 @@ const Home = () => {
                         Search
                     </button>
                 </div>
-                <p className=' text-white font-bold mt-10 text-xl'> Are you a buyer? <span className=' font-light border-b-2'>Click here if you are looking to post a requirements</span></p>
+                <p className=' text-white font-bold mt-10 text-xl'> Are you a buyer? <span className=' font-light border-b-2 cursor-pointer'>Click here if you are looking to post a requirements</span></p>
             </div>
         </section>
 
