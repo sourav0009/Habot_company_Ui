@@ -46,7 +46,7 @@ const Home = () => {
             </section>
 
             <section className=' bg-white w-full h-96'>
-                <div className=' md:flex items-center justify-around md:ml-24 md:mr-24 ml-16 mr-16  md:mt-24 mt-16'>
+                <div className=' md:flex items-center justify-around md:ml-24 md:mr-24 ml-12 mr-12  md:mt-24 mt-16'>
                     <div className="left space-y-6 ">
                         <h1 className=' md:text-4xl text-2xl font-bold'>Ready to dive into HABOT?</h1>
                         <p>Signing up with HABOT opens the door to a world of new opportunities <br />
@@ -60,16 +60,16 @@ const Home = () => {
                             </svg>
                         </button>
                     </div>
-                    <div className="right flex space-x-6">
-                        <div className=' flex flex-col space-y-4 w-60'>
-                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Abu Dhabi</button>
-                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Sharjah & Ajman</button>
-                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Ras Al Khaimah</button>
+                    <div className="right flex space-x-6 mt-8">
+                        <div className=' flex flex-col space-y-4 md:w-60'>
+                            <button className=' border md:p-4 p-2 rounded-lg border-orange-400 font-semibold md:text-xl text-gray-600'>Abu Dhabi</button>
+                            <button className=' border md:p-4 p-2 rounded-lg border-orange-400 font-semibold md:text-xl text-gray-600'>Sharjah & Ajman</button>
+                            <button className=' border md:p-4 p-2 rounded-lg border-orange-400 font-semibold md:text-xl text-gray-600'>Ras Al Khaimah</button>
                         </div>
-                        <div className=' flex flex-col space-y-4 w-60'>
-                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Dubai</button>
-                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Fujairah</button>
-                            <button className=' border p-4 rounded-lg border-orange-400 font-semibold text-xl text-gray-600'>Umm Al Quwain</button>
+                        <div className=' flex flex-col space-y-4 md:w-60'>
+                            <button className=' border md:p-4 p-2 rounded-lg border-orange-400 font-semibold md:text-xl text-gray-600'>Dubai</button>
+                            <button className=' border md:p-4 p-2 rounded-lg border-orange-400 font-semibold md:text-xl text-gray-600'>Fujairah</button>
+                            <button className=' border md:p-4 p-2 rounded-lg border-orange-400 font-semibold md:text-xl text-gray-600'>Umm Al Quwain</button>
                         </div>
                     </div>
                 </div>
