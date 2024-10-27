@@ -136,6 +136,17 @@ const Home = () => {
             </section>
 
 
+            <section className=' h-96 bg-slate-400 mr-32 ml-32 mb-10'>
+                <div className="up flex justify-center flex-col items-center space-y-3">
+                    <h1 className=' text-2xl font-bold'>How it works?</h1>
+                    <p className=' text-center font-sans'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with <br /> potential buyers, and build successful business relationships, sharing valuable feedback.
+                    </p>
+                </div>
+                <div className="down">
+
+                </div>
+            </section>
+
         </>
     );
 };
