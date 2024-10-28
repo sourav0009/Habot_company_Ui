@@ -1,9 +1,11 @@
 import React from 'react';
+import youtube from '../assets/youTube.png'
+
 
 const Home = () => {
     return (
         <>
-            <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
+            <section class="bg-center bg-no-repeat bg-[url('https://www.rizmona.com/wp-content/uploads/2024/05/Dubai-UAE-Background_Medium-Tranparency-Rizmona-Consultants.jpg')] bg-gray-700 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-16 md:py-24 lg:py-56">
                     <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white sm:text-4xl md:text-5xl lg:text-6xl">
                         Are You a Supplier?
@@ -75,34 +77,32 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className=' bg-blue-950  md:ml-28 md:mr-28 ml-8 mr-8  h-96 mb-10 rounded-lg shadow-xl'>
-                <div className=' md:mt-24'>
-                    <div className='md:flex md:space-x-6 space-y-6 items-center'>
-                        <div className="left ml-16 relative mt-5">
+            <section className=' bg-blue-950  md:ml-48 md:mr-48 ml-8 mr-8 mt-10  md:h-[623px] mb-10 rounded-lg shadow-xl'>
+                <div className=' md:mt-32 p-10'>
+                    <div className='md:flex md:space-x-10 space-y-6 items-center'>
+                        <div className="left md:ml-16 relative md:mt-24">
                             <a
                                 href="https://www.youtube.com/watch?v=IZLp-TZyDkQ"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                <img className="h-45 w-[65%] mt-10" src="./pic.jpeg" alt="Linked Image" />
+                                {/* <img className="h-45 w-[65%] mt-10" src="./pic.jpeg" alt="Linked Image" /> */}
+                                <img  height={350} width={640} src={youtube} alt="youtubeImage" />
+
+
                             </a>
-                            <svg
-                                className="absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/3"
-                                xmlns="http://www.w3.org/2000/svg"
-                                height="94px"
-                                viewBox="0 -960 960 960"
-                                width="94px"
-                                fill="#FF0000"
-                            >
-                                <path d="M616-242q-27 1-51.5 1.5t-43.5.5h-41q-71 0-133-2-53-2-104.5-5.5T168-257q-26-7-45-26t-26-45q-6-23-9.5-56T82-447q-2-36-2-73t2-73q2-30 5.5-63t9.5-56q7-26 26-45t45-26q23-6 74.5-9.5T347-798q62-2 133-2t133 2q53 2 104.5 5.5T792-783q26 7 45 26t26 45q6 23 9.5 56t5.5 63q2 36 2 73v17q-19-8-39-12.5t-41-4.5q-83 0-141.5 58.5T600-320q0 21 4 40.5t12 37.5ZM400-400l208-120-208-120v240Zm360 200v-80h-80v-80h80v-80h80v80h80v80h-80v80h-80Z" />
+                            <svg  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" width="100" height="70" viewBox="0 0 107 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="19.1374" y="17.5234" width="53.7231" height="40.1194" rx="5" fill="white" />
+                                <path d="M84.2177 0H22.0758C9.88367 0 0 9.88366 0 22.0758V53.1402C0 65.3323 9.88367 75.216 22.0758 75.216H84.2177C96.4099 75.216 106.294 65.3323 106.294 53.1402V22.0758C106.294 9.88366 96.4099 0 84.2177 0ZM69.288 39.1194L40.2222 52.982C39.4477 53.3514 38.5531 52.7867 38.5531 51.9288V23.337C38.5531 22.4669 39.4712 21.9029 40.2473 22.2962L69.3131 37.0253C70.1773 37.4632 70.1623 38.7025 69.288 39.1194Z" fill="#F61C0D" />
                             </svg>
+
                         </div>
-                        <div className="right mr-10 text-white space-y-9">
+                        <div className="right  text-white space-y-9">
                             <div className=' flex justify-around text-3xl font-bold  '>
                                 <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Buyer </h1>
                                 <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Supplier </h1>
                             </div>
-                            <div className="space-y-2 font-semibold ml-5">
+                            <div className="space-y-2 font-semibold md:ml-5">
                                 <p className="flex items-center space-x-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#008000">
                                         <path d="m424-296 282-282-56-56-226 226-114-114-56 56 170 170Zm56 216q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
@@ -128,7 +128,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className=' w-full h-48 bg-sky-200 mt-24 mb-24'>
+            <section className=' w-full h-48 bg-sky-100 mt-24 md:mb-24'>
                 <div className=' flex items-center md:justify-around justify-between md:p-20 p-16 '>
                     <h1 className=' md:text-3xl text-xl font-semibold'>Let Suppliers <span className=' border-b-4 border-orange-500'> Find You</span></h1>
                     <button className=' bg-orange-500 p-2 md:w-40 w-40 rounded-md text-white font-semibold'>Get Verified</button>
@@ -136,15 +136,15 @@ const Home = () => {
             </section>
 
 
-            <section className=' h-[100%]  mr-32 ml-32 mb-20'>
-                <div className="up flex justify-center flex-col items-center space-y-4">
-                    <h1 className=' text-4xl font-bold'>How it works?</h1>
-                    <p className=' text-center font-sans text-xl'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with <br /> potential buyers, and build successful business relationships, sharing valuable feedback.
+            <section className=' h-[100%]  md:mr-32 md:ml-32 mb-20 mt-10'>
+                <div className="up flex justify-center flex-col items-center text-center space-y-4">
+                    <h1 className=' md:text-4xl text-3xl font-bold'>How it works?</h1>
+                    <p className=' text-center font-sans text-xl ml-8 mr-8'>Buyers post their needs and review top suppliers, while suppliers complete profiles, connect with <br /> potential buyers, and build successful business relationships, sharing valuable feedback.
                     </p>
                 </div>
                 <div className=" flex justify-center flex-col items-center mt-8">
-                    <div className=" flex">
-                        <div className=' bg-cyan-50 h-60 w-96 text-center flex flex-col items-center p-12 space-y-5'>
+                    <div className=" md:flex">
+                        <div className=' bg-cyan-50 md:h-60 md:w-96ext-center flex flex-col items-center p-12 space-y-5'>
                             <svg width="64" height="64" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M35.4476 38.0417C45.9525 38.0417 54.4684 29.5258 54.4684 19.0208C54.4684 8.51592 45.9525 0 35.4476 0C24.9427 0 16.4268 8.51592 16.4268 19.0208C16.4268 29.5258 24.9427 38.0417 35.4476 38.0417Z" fill="black" />
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M40.3968 70.9373C36.7897 67.0778 34.5833 61.8937 34.5833 56.1979C34.5833 50.3844 36.8831 45.107 40.6181 41.2198C38.9339 41.0919 37.2048 41.0227 35.4479 41.0227C23.9593 41.0227 13.7884 43.8966 7.47346 48.2022C2.656 51.4876 0 55.6618 0 60.0435V65.0616C0 66.6178 0.619042 68.1153 1.72225 69.2185C2.82546 70.3182 4.31946 70.9407 5.87917 70.9407L40.3968 70.9373Z" fill="black" />
@@ -153,7 +153,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Select Your Role and <br /> Sign Up</div>
                         </div>
-                        <div className=' bg-white h-60 w-96  text-center flex flex-col items-center p-12 space-y-5'>
+                        <div className=' bg-white md:h-60 md:w-96  text-center flex flex-col items-center p-12 space-y-5'>
                             <svg width="64" height="64" viewBox="0 0 65 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M41.2534 13.4709H49.6764L41.2534 3.89185V13.4709Z" fill="black" />
                                 <path d="M50.1889 31.4928C50.9841 31.4928 51.7755 31.5426 52.5596 31.6415V18.2038H38.7921C37.4829 18.2038 36.5119 17.1958 36.5119 15.8889V0H0.951602C0.851121 0 0.76923 0.0815705 0.76923 0.182051V74.818C0.76923 74.9184 0.851121 75 0.951602 75H52.3774C52.478 75 52.5598 74.9184 52.5598 74.818V68.8439C51.7756 68.9429 50.9843 68.9926 50.1891 68.9926C40.6349 68.9926 32.7242 61.8348 31.5551 52.6091H8.79311V47.8761H31.555C32.724 38.6505 40.6349 31.4928 50.1889 31.4928ZM32.5 60.6189V65.3519H8.79311V60.6189H32.5ZM8.79311 9.64808H28.4881V14.3811H8.79311V9.64808ZM8.79311 22.3907H44.9005V27.1237H8.79311V22.3907ZM32.5 39.8665H8.79311V35.1335H32.5V39.8665Z" fill="black" />
@@ -162,7 +162,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Buyers Post Your <br /> Requirements</div>
                         </div>
-                        <div className=' bg-cyan-50 h-60 w-96 text-center flex flex-col items-center p-12 space-y-5'>
+                        <div className=' bg-cyan-50 md:h-60 md:w-96ext-center flex flex-col items-center p-12 space-y-5'>
                             <svg width="64" height="64" viewBox="0 0 76 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M50.2778 73.2965H4.2403C1.81727 73.2965 0 71.3278 0 69.0562V4.2403C0 1.96871 1.96871 0 4.2403 0H50.2778C52.7008 0 54.5181 1.96871 54.5181 4.2403V33.1652C47.8548 28.622 38.7684 29.5306 32.8623 35.4368C26.3504 41.9486 26.5018 53.0037 33.1652 59.5156C38.9199 65.1188 47.8548 65.876 54.5181 61.4843V69.0562C54.5181 71.3278 52.7008 73.2965 50.2778 73.2965ZM29.0763 65.7246H8.32915C6.9662 65.7246 6.9662 63.6044 8.32915 63.6044H28.9249C30.4393 63.6044 30.4393 65.7246 29.0763 65.7246ZM24.836 56.3354H8.32915C6.9662 56.3354 6.9662 54.2152 8.32915 54.2152H24.836C26.3504 54.2152 26.3504 56.3354 24.836 56.3354ZM22.5644 47.0976H8.32915C6.9662 47.0976 6.9662 44.826 8.32915 44.826H22.5644C24.0788 44.826 24.0788 47.0976 22.5644 47.0976ZM25.5932 37.7083H8.32915C6.9662 37.7083 6.9662 35.4368 8.32915 35.4368H25.5932C27.1076 35.4368 27.1076 37.7083 25.5932 37.7083ZM46.0375 28.3191H8.32915C6.9662 28.3191 6.9662 26.0475 8.32915 26.0475H46.0375C47.5519 26.0475 47.5519 28.3191 46.0375 28.3191ZM35.7396 18.9299H18.7785C17.2641 18.9299 17.2641 16.6583 18.7785 16.6583H35.7396C37.254 16.6583 37.254 18.9299 35.7396 18.9299Z" fill="black" />
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M37.4053 39.6771C41.4942 35.4368 48.309 35.4368 52.5493 39.5257C59.364 46.3404 54.6694 58.0012 45.1287 58.0012C36.0424 58.0012 30.5906 46.9462 37.4053 39.6771ZM30.1363 47.4005C30.1363 34.0739 46.0374 27.562 55.4266 36.6483C61.0298 42.1001 61.4842 50.8836 56.4867 56.7897L60.4241 60.7271L58.9097 62.2415L54.9723 58.4556C45.7345 66.7847 30.2877 60.4243 30.1363 47.4005Z" fill="#EB7150" />
@@ -173,8 +173,8 @@ const Home = () => {
                             <div className=' font-semibold'>Review, Select,and<br />  Contact the Best Suppliers</div>
                         </div>
                     </div>
-                    <div className=" flex">
-                        <div className=' bg-white h-60 w-96  text-center flex flex-col items-center p-12 space-y-5 '>
+                    <div className=" md:flex ml-14 mr-14">
+                        <div className=' bg-white md:h-60 md:w-96 text-center flex flex-col items-center p-12 space-y-5 '>
                             <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_215)">
                                     <mask id="mask0_1_215" maskUnits="userSpaceOnUse" x="0" y="0" width="75" height="75">
@@ -200,7 +200,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Suppliers Complete your profile and get notified for <br /> opportunities</div>
                         </div>
-                        <div className=' bg-cyan-50 h-60 w-96  text-center flex flex-col items-center p-12 space-y-5 '>
+                        <div className=' bg-cyan-50 md:h-60 md:w-96ext-center flex flex-col items-center p-12 space-y-5 '>
                             <svg width="64" height="64" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_194)">
                                     <path d="M45.4258 69.4654L35.3054 69.4651V59.5411H15.1822V55.1522H39.4976L45.0324 49.6175H15.1822V45.2287H49.4212L54.956 39.6939H15.1822V35.3051H59.3448L65.0764 29.5734V2.76738C65.0764 1.24146 63.835 0 62.309 0C60.7831 0 59.5417 1.24146 59.5417 2.76738C59.5417 4.29302 60.7828 5.53418 62.3086 5.53418H62.309V9.923L9.92358 9.92344V75H65.0764V49.8149L45.4258 69.4654ZM15.1822 25.3816H39.9708V29.7705H15.1822V25.3816Z" fill="black" />
@@ -218,7 +218,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Contact to Buyers and Share <br /> your Quote for the service</div>
                         </div>
-                        <div className=' bg-white h-60 w-96  text-center flex flex-col items-center p-12 space-y-5'>
+                        <div className=' bg-white md:h-60 md:w-96  text-center flex flex-col items-center p-12 space-y-5'>
                             <svg width="64" height="64" viewBox="0 0 87 86" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M28.9361 70.393C30.1146 68.9165 29.8843 66.7492 28.4078 65.5707C27.7034 65.0018 26.9448 64.7308 26.1592 64.7308C26.0237 64.7308 25.8883 64.7444 25.7528 64.7579C24.8317 64.8663 24.0189 65.3269 23.4636 66.0583L18.9257 71.9237C18.4109 72.5739 18.1536 73.3054 18.1536 74.064C18.1536 75.107 18.6277 76.0823 19.4404 76.746C20.9034 77.9245 23.0707 77.6807 24.2628 76.2178L28.9361 70.393Z" fill="black" />
                                 <path d="M16.948 70.0272L21.5129 64.1483C22.0277 63.471 22.3121 62.6718 22.3121 61.8319C22.3121 60.667 21.7839 59.5833 20.8627 58.8518C20.2125 58.3371 19.4133 58.0662 18.587 58.0662C18.4245 58.0662 18.2619 58.0797 18.0994 58.0933C17.097 58.2152 16.2165 58.7299 15.6069 59.5156L11.042 65.3945C9.78219 67.0335 10.0667 69.3905 11.6922 70.6503C12.4914 71.2734 13.4667 71.5443 14.4555 71.4224C15.4579 71.314 16.3384 70.8128 16.948 70.0272Z" fill="black" />
