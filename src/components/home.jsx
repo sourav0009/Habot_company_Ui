@@ -237,6 +237,13 @@ const Home = () => {
                 </div>
             </section>
 
+
+            <footer className=' bg-blue-950 h-56'>
+
+
+            </footer>
+
+
         </>
     );
 };
