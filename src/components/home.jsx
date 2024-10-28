@@ -5,7 +5,7 @@ import youtube from '../assets/youTube.png'
 const Home = () => {
     return (
         <>
-            <section class="bg-center bg-no-repeat bg-[url('https://www.rizmona.com/wp-content/uploads/2024/05/Dubai-UAE-Background_Medium-Tranparency-Rizmona-Consultants.jpg')] bg-gray-700 bg-blend-multiply">
+            <section class="bg-center bg-no-repeat bg-[url('https://www.rizmona.com/wp-content/uploads/2024/05/Dubai-UAE-Background_Medium-Tranparency-Rizmona-Consultants.jpg')] bg-gray-400 bg-blend-multiply">
                 <div className="px-4 mx-auto max-w-screen-xl text-center py-16 md:py-24 lg:py-56">
                     <h1 className="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white sm:text-4xl md:text-5xl lg:text-6xl">
                         Are You a Supplier?
@@ -87,20 +87,24 @@ const Home = () => {
                                 rel="noopener noreferrer"
                             >
                                 {/* <img className="h-45 w-[65%] mt-10" src="./pic.jpeg" alt="Linked Image" /> */}
-                                <img  height={350} width={640} src={youtube} alt="youtubeImage" />
+                                <img height={350} width={640} src={youtube} alt="youtubeImage" />
 
 
                             </a>
-                            <svg  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" width="100" height="70" viewBox="0 0 107 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" width="100" height="70" viewBox="0 0 107 76" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="19.1374" y="17.5234" width="53.7231" height="40.1194" rx="5" fill="white" />
                                 <path d="M84.2177 0H22.0758C9.88367 0 0 9.88366 0 22.0758V53.1402C0 65.3323 9.88367 75.216 22.0758 75.216H84.2177C96.4099 75.216 106.294 65.3323 106.294 53.1402V22.0758C106.294 9.88366 96.4099 0 84.2177 0ZM69.288 39.1194L40.2222 52.982C39.4477 53.3514 38.5531 52.7867 38.5531 51.9288V23.337C38.5531 22.4669 39.4712 21.9029 40.2473 22.2962L69.3131 37.0253C70.1773 37.4632 70.1623 38.7025 69.288 39.1194Z" fill="#F61C0D" />
                             </svg>
 
                         </div>
                         <div className="right  text-white space-y-9">
-                            <div className=' flex justify-around text-3xl font-bold  '>
-                                <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Buyer </h1>
-                                <h1 className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 '>Supplier </h1>
+                            <div className=' flex  text-3xl font-bold  '>
+                                <div className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 ' >
+                                    <h1 className=' px-14'>Buyer </h1>
+                                </div>
+                                <div className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 ' >
+                                    <h1 className=' px-14'>Supplier </h1>
+                                </div>
                             </div>
                             <div className="space-y-2 font-semibold md:ml-5">
                                 <p className="flex items-center space-x-2">
@@ -144,7 +148,7 @@ const Home = () => {
                 </div>
                 <div className=" flex justify-center flex-col items-center mt-8">
                     <div className=" md:flex">
-                        <div className=' bg-cyan-50 md:h-60 md:w-96ext-center flex flex-col items-center p-12 space-y-5'>
+                        <div className=' bg-cyan-50 md:h-60 md:w-96 flex flex-col items-center p-12 space-y-5 text-center'>
                             <svg width="64" height="64" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M35.4476 38.0417C45.9525 38.0417 54.4684 29.5258 54.4684 19.0208C54.4684 8.51592 45.9525 0 35.4476 0C24.9427 0 16.4268 8.51592 16.4268 19.0208C16.4268 29.5258 24.9427 38.0417 35.4476 38.0417Z" fill="black" />
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M40.3968 70.9373C36.7897 67.0778 34.5833 61.8937 34.5833 56.1979C34.5833 50.3844 36.8831 45.107 40.6181 41.2198C38.9339 41.0919 37.2048 41.0227 35.4479 41.0227C23.9593 41.0227 13.7884 43.8966 7.47346 48.2022C2.656 51.4876 0 55.6618 0 60.0435V65.0616C0 66.6178 0.619042 68.1153 1.72225 69.2185C2.82546 70.3182 4.31946 70.9407 5.87917 70.9407L40.3968 70.9373Z" fill="black" />
@@ -162,7 +166,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Buyers Post Your <br /> Requirements</div>
                         </div>
-                        <div className=' bg-cyan-50 md:h-60 md:w-96ext-center flex flex-col items-center p-12 space-y-5'>
+                        <div className=' bg-cyan-50 md:h-60 md:w-96 flex flex-col items-center p-12 space-y-5 text-center'>
                             <svg width="64" height="64" viewBox="0 0 76 78" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M50.2778 73.2965H4.2403C1.81727 73.2965 0 71.3278 0 69.0562V4.2403C0 1.96871 1.96871 0 4.2403 0H50.2778C52.7008 0 54.5181 1.96871 54.5181 4.2403V33.1652C47.8548 28.622 38.7684 29.5306 32.8623 35.4368C26.3504 41.9486 26.5018 53.0037 33.1652 59.5156C38.9199 65.1188 47.8548 65.876 54.5181 61.4843V69.0562C54.5181 71.3278 52.7008 73.2965 50.2778 73.2965ZM29.0763 65.7246H8.32915C6.9662 65.7246 6.9662 63.6044 8.32915 63.6044H28.9249C30.4393 63.6044 30.4393 65.7246 29.0763 65.7246ZM24.836 56.3354H8.32915C6.9662 56.3354 6.9662 54.2152 8.32915 54.2152H24.836C26.3504 54.2152 26.3504 56.3354 24.836 56.3354ZM22.5644 47.0976H8.32915C6.9662 47.0976 6.9662 44.826 8.32915 44.826H22.5644C24.0788 44.826 24.0788 47.0976 22.5644 47.0976ZM25.5932 37.7083H8.32915C6.9662 37.7083 6.9662 35.4368 8.32915 35.4368H25.5932C27.1076 35.4368 27.1076 37.7083 25.5932 37.7083ZM46.0375 28.3191H8.32915C6.9662 28.3191 6.9662 26.0475 8.32915 26.0475H46.0375C47.5519 26.0475 47.5519 28.3191 46.0375 28.3191ZM35.7396 18.9299H18.7785C17.2641 18.9299 17.2641 16.6583 18.7785 16.6583H35.7396C37.254 16.6583 37.254 18.9299 35.7396 18.9299Z" fill="black" />
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M37.4053 39.6771C41.4942 35.4368 48.309 35.4368 52.5493 39.5257C59.364 46.3404 54.6694 58.0012 45.1287 58.0012C36.0424 58.0012 30.5906 46.9462 37.4053 39.6771ZM30.1363 47.4005C30.1363 34.0739 46.0374 27.562 55.4266 36.6483C61.0298 42.1001 61.4842 50.8836 56.4867 56.7897L60.4241 60.7271L58.9097 62.2415L54.9723 58.4556C45.7345 66.7847 30.2877 60.4243 30.1363 47.4005Z" fill="#EB7150" />
@@ -200,7 +204,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Suppliers Complete your profile and get notified for <br /> opportunities</div>
                         </div>
-                        <div className=' bg-cyan-50 md:h-60 md:w-96ext-center flex flex-col items-center p-12 space-y-5 '>
+                        <div className=' bg-cyan-50 md:h-60 md:w-96 flex flex-col items-center p-12 space-y-5 text-center '>
                             <svg width="64" height="64" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1_194)">
                                     <path d="M45.4258 69.4654L35.3054 69.4651V59.5411H15.1822V55.1522H39.4976L45.0324 49.6175H15.1822V45.2287H49.4212L54.956 39.6939H15.1822V35.3051H59.3448L65.0764 29.5734V2.76738C65.0764 1.24146 63.835 0 62.309 0C60.7831 0 59.5417 1.24146 59.5417 2.76738C59.5417 4.29302 60.7828 5.53418 62.3086 5.53418H62.309V9.923L9.92358 9.92344V75H65.0764V49.8149L45.4258 69.4654ZM15.1822 25.3816H39.9708V29.7705H15.1822V25.3816Z" fill="black" />
@@ -218,7 +222,7 @@ const Home = () => {
 
                             <div className=' font-semibold'>Contact to Buyers and Share <br /> your Quote for the service</div>
                         </div>
-                        <div className=' bg-white md:h-60 md:w-96  text-center flex flex-col items-center p-12 space-y-5'>
+                        <div className=' bg-white md:h-60 md:w-96  text-center flex flex-col items-center p-12 space-y-5 '>
                             <svg width="64" height="64" viewBox="0 0 87 86" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M28.9361 70.393C30.1146 68.9165 29.8843 66.7492 28.4078 65.5707C27.7034 65.0018 26.9448 64.7308 26.1592 64.7308C26.0237 64.7308 25.8883 64.7444 25.7528 64.7579C24.8317 64.8663 24.0189 65.3269 23.4636 66.0583L18.9257 71.9237C18.4109 72.5739 18.1536 73.3054 18.1536 74.064C18.1536 75.107 18.6277 76.0823 19.4404 76.746C20.9034 77.9245 23.0707 77.6807 24.2628 76.2178L28.9361 70.393Z" fill="black" />
                                 <path d="M16.948 70.0272L21.5129 64.1483C22.0277 63.471 22.3121 62.6718 22.3121 61.8319C22.3121 60.667 21.7839 59.5833 20.8627 58.8518C20.2125 58.3371 19.4133 58.0662 18.587 58.0662C18.4245 58.0662 18.2619 58.0797 18.0994 58.0933C17.097 58.2152 16.2165 58.7299 15.6069 59.5156L11.042 65.3945C9.78219 67.0335 10.0667 69.3905 11.6922 70.6503C12.4914 71.2734 13.4667 71.5443 14.4555 71.4224C15.4579 71.314 16.3384 70.8128 16.948 70.0272Z" fill="black" />
@@ -238,21 +242,21 @@ const Home = () => {
             </section>
 
 
-            <footer className="bg-blue-950 py-1 h-64">
-                {/* <!-- Top Border Line --> */}
-                <div className=" ml-52 mr-52 border-t border-gray-600 mt-10"></div>
+            <footer className="bg-blue-950 py-1 md:h-64">
+                {/* Top Border Line */}
+                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mt-10"></div>
 
-                {/* <!-- Main Footer Content --> */}
-                <div className="flex justify-around items-center p-10">
-                    <div className="flex space-x-10 items-center">
-                        {/* <!-- Logo Section --> */}
-                        <div className="logo  ">
-                            <img className="max-w-full mt-5 " src="./loho2.png" alt="Logo" />
+                {/* Main Footer Content */}
+                <div className="flex flex-col md:flex-row justify-around items-center p-5 md:p-10">
+                    <div className="flex flex-col md:flex-row md:space-x-10 items-center">
+                        {/* Logo Section */}
+                        <div className="logo text-center">
+                            <img className="max-w-full mt-5" src="./loho2.png" alt="Logo" />
                             <h1 className="text-gray-300 text-xl mt-2">© R Singhania</h1>
                         </div>
 
-                        {/* <!-- Details Section --> */}
-                        <div className="detels flex space-x-6 text-white">
+                        {/* Details Section */}
+                        <div className="detels flex  md:flex-row space-x-6 text-white mt-5 md:mt-0">
                             <div className="space-y-2">
                                 <h1 className="font-semibold">Company</h1>
                                 <h3 className="font-thin text-gray-300">About <br /> FAQ</h3>
@@ -267,7 +271,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="sosal">
+
+                    {/* Social Section */}
+                    <div className="sosal p-5 md:p-10 mt-5 md:mt-0">
                         <svg width="208" height="40" viewBox="0 0 208 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g opacity="0.9">
                                 <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="white" stroke-opacity="0.2" />
@@ -309,11 +315,9 @@ const Home = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-
                     </div>
-                    {/* </div> */}
                 </div>
-                <div className="ml-52 mr-52 border-t border-gray-600 mb-10"></div>
+                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mb-10"></div>
             </footer>
 
 
