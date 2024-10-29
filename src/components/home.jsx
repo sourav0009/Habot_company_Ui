@@ -242,9 +242,9 @@ const Home = () => {
             </section>
 
 
-            <footer className="bg-blue-950 py-1 md:h-64">
+            <footer className="bg-sky-950 py-1 md:h-64">
                 {/* Top Border Line */}
-                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mt-10"></div>
+                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mt-8"></div>
 
                 {/* Main Footer Content */}
                 <div className="flex flex-col md:flex-row justify-around items-center p-5 md:p-10">
@@ -317,7 +317,7 @@ const Home = () => {
                         </svg>
                     </div>
                 </div>
-                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mb-20"></div>
+                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mb-8"></div>
             </footer>
 
 
