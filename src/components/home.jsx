@@ -86,7 +86,7 @@ const Home = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                {/* <img className="h-45 w-[65%] mt-10" src="./pic.jpeg" alt="Linked Image" /> */}
+                                
                                 <img height={350} width={640} src={youtube} alt="youtubeImage" />
 
 
@@ -100,10 +100,10 @@ const Home = () => {
                         <div className="right  text-white space-y-9">
                             <div className=' flex  text-3xl font-bold  '>
                                 <div className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 ' >
-                                    <h1 className=' px-14'>Buyer </h1>
+                                    <h1 className=' md:px-14 px-4'>Buyer </h1>
                                 </div>
                                 <div className=' hover:text-orange-500 hover:border-b-4 hover:border-orange-500 ' >
-                                    <h1 className=' px-14'>Supplier </h1>
+                                    <h1 className=' md:px-14 px-4'>Supplier </h1>
                                 </div>
                             </div>
                             <div className="space-y-2 font-semibold md:ml-5">
@@ -317,7 +317,7 @@ const Home = () => {
                         </svg>
                     </div>
                 </div>
-                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mb-10"></div>
+                <div className="ml-10 mr-10 md:ml-52 md:mr-52 border-t border-gray-600 mb-20"></div>
             </footer>
 
 
