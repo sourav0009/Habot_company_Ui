@@ -13,7 +13,7 @@ const Home = () => {
                     <p className="mb-8 text-lg font-normal text-gray-300 sm:text-xl md:text-2xl lg:text-6xl sm:px-8 lg:px-48">
                         Explore Matching Opportunities.
                     </p>
-                    <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-3 mt-12">
+                    <div className=" md:flex sm:flex flex-row space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-3 mt-12">
                         {/* First Input Field */}
                         <div className="relative w-full sm:w-80 md:w-96 mx-auto sm:mx-0">
                             <svg className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFA500">
@@ -86,7 +86,7 @@ const Home = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                
+
                                 <img height={350} width={640} src={youtube} alt="youtubeImage" />
 
 
